@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hi Idol</title>
+</head>
+		<body>
+			<div>
+				<h1>Tara date tayo?</h1>
+				<button id="yesButton" class="yes">Yes</button>
+				<button id="no" class="no">No</button>
+			</div>
+			<style>
+				body { 
+			background-image: url("https://www.4shared.com/img/Q38qTyWgfa/s25/187364e87e8/heart__1_"); 
+			background-size:cover;
+			background-attachment: fixed;
+			text-align: center;
+				div{
+			text-align: center;
+			vertical-align: middle;
+		}
+		.yes{
+		 color: #3ce330;
+		 }
+		 .no{
+		 color: #e63749;
+		 }
+				#no {
+			position: absolute;
+		}
+		       
+	</style>	
+	<script>
+	     document.getElementById("yesButton").addEventListener("click",function(){
+		alert("WOW, THANK YOU KAILAN KA AVAILABLE PM MO KO SET NA NATIN!! see ya <3!! -ivan");
+		});
+		  var b = document.getElementById("no");
+		   b.addEventListener("click",change);
+		   function change() {
+				    var i = Math.floor(Math.random()*1000)+1;
+					var j = Math.floor(Math.random()*700)+1;
+					b.style.left = i+"px";
+					b.style.top = j+"px"; 
+		}
+		</script>
+	</body>
+</html>
